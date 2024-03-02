@@ -9,4 +9,9 @@ document.getElementById('rotateBtn').addEventListener('click', function() {
       frontImage.style.display = 'none';
       backImage.style.display = 'block';
     }
+<<<<<<< HEAD
   });
+=======
+  });
+  
+>>>>>>> eacb5689a5c98f3b2e11f7eed92a9cfce2b41d5a

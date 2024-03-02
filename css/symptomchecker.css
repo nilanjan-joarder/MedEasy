@@ -18,53 +18,51 @@ body {
 }
 
 #full-body {
+
     display: flex;
-    margin-top: -272px;
-    margin-left: 578px;
-    height: 1604px;
-    position: absolute;
-    z-index: 1;
+    margin-top: -539px;
+    margin-left: 559px;
+    height: 2017px;
+
 }
-#back-body {
-  height: 540px;
-  margin-left: 617px;
-  margin-top: -2020px;
-  display: flex;
- 
+#back-body
+{
+    height: 540px;
+    margin-left: 617px;
+    margin-top: -2020px;
+    display: flex;
 }
 #full-body-back{
     display: flex;
-    margin-top: -273px;
-    margin-left: 571px;
-    height: 440px;
+    margin-top: -540px;
+    margin-left: 556px;
+    height: 540px;
 }
-
-.body-image {
-    position: absolute;
-    height: 440px;
-    margin-left: 628px;
-    margin-top: -444px;
+.body-action-icon-turn-body{
+    margin-left: -342px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid gray;
+    height: 40px;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
-    
-
-/* .svg {
-  opacity: 0;
-} */
-
 
 .body-part-head {
-  font-family: poppins;
-  justify-content: center;
-  align-items: center;
-  color: rgb(137, 137, 137);
-  height: 30px;
-  width: 100px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  display: flex;
-  box-shadow: 2px 2px 2px 2px #bdbdbd82;
-  margin-top: 40px;
-  margin-left: 800px;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 850px;
 }
 
 .body-part-neck {
@@ -143,20 +141,20 @@ body {
 }
 
 .body-part-legs {
-  font-family: poppins;
-  justify-content: center;
-  align-items: center;
-  color: rgb(137, 137, 137);
-  height: 30px;
-  width: 120px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  display: flex;
-  box-shadow: 2px 2px 2px 2px #bdbdbd82;
-  margin-top: 40px;
-  margin-left: 480px;
-}
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 480px;
 
+}
 .body-part-back {
     font-family: poppins;
     justify-content: center;
@@ -189,6 +187,7 @@ body {
 
 }
 
+
 input #input-symptom {
   display: flex;
   justify-content: left;
@@ -209,10 +208,10 @@ input {
 }
 
 #text-age {
-  font-family: poppins;
-  margin-top: 0px;
-  margin-left: 150px;
-  display: flex;
+    font-family: poppins;
+    margin-top: -500px;
+    margin-left: 150px;
+    display: flex;
 }
 
 option {
@@ -248,17 +247,14 @@ option {
 }
 
 #input-symptom {
-   
-        margin-top: 20px;
-        margin-left: 150px;
-        height: 40px;
-        width: 350px;
-        text-align: start;
-        padding-left: 20px;
-        font-size: 15px;
-    }
-    
-
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 40px;
+    width: 350px;
+    text-align: start;
+    padding-left: 20px;
+    font-size: 15px;
+}
 
 ::placeholder {
   justify-content: left;
@@ -268,45 +264,19 @@ option {
 }
 
 .report {
-  background-color: aqua;
-  height: 580px;
-  width: 300px;
-  margin-left: 1130px;
-  margin-top: -300px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #88888888;
-  display: flex;
+    background-color: aqua;
+    height: 580px;
+    width: 300px;
+    margin-left: 1130px;
+    margin-top: -310px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #88888888;
+    display: flex;
 }
 
 #report-text {
-  font-family: poppins;
-  margin-top: 20px;
-  margin-left: 25px;
+    font-family: poppins;
+    margin-top: 20px;
+    margin-left: 25px;
 }
-
-.container {
-  position: relative;
-}
-
-
-#rotateBtn {
-    margin-left: 1030px;
-    margin-top: -550px;
-    display: flex;
-    height: 40px;
-    width: 46px;
-    justify-content: center;
-    align-items: center;
-    border: 0.5px solid grey;
-    border-radius: 20%;
-    cursor: pointer;
-}
-#frontImage {
-    display: block;
-  }
-  
-#backImage {
-    display: none;
-    margin-left: 618px;
-  }
