@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 150px;
+    margin-top: -60px;
+}
+.nav-bar{
+    display: flex;
+    column-gap: 40px;
+    font-size: 15px;
+    /* margin-left: 100px;     */
+    margin-top: 15px;
+    font-family: poppins;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+#home{
+    margin-left: 375px;
+}
+#button-login{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(234, 234, 234, 0.636);
+    background-color: #1cc0a8;
+    font-family: poppins;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+}
+#button-signup{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(234, 234, 234, 0.636);
+    background-color: #1cc0a8;
+    font-family: poppins;
+    color: white;
+    margin-left:-10px
+}
+#contact-heading{
+    font-family: poppins;
+    font-weight: 500;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#contact-subheading{
+    font-family: poppins;
+    font-weight: 300;
+    margin-left: 200px;
+    
+}
+.container{
+    background-color: rgba(220, 220, 220, 0.603);
+    height: 400px;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#input-name-text{
+    display: flex;
+    font-family: poppins;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#input-name{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#input-mobile-text{
+    display: flex;
+    font-family: poppins;
+    margin-top: -67px;
+    margin-left: 450px;
+}
+#input-mobile{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#input-address-text{
+    display: flex;
+    font-family: poppins;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#input-address{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 30px;
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid gray
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+select{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+#image{
+    width: 450px;
+    display: flex;
+    margin-top: -410px;
+    margin-left: 1050px;
+    
+}

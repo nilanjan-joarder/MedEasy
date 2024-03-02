@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    /* overflow: hidden; */
+    background-color: #ffffff59;
+}
+
+.symptoms-check {
+    border: 0.5px solid rgba(128, 128, 128, 0);
+    box-shadow: 5px 5px 10px #88888888;
+    height: 580px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+.body-bg-img {
+    height: 540px;
+    margin-left: 625px;
+    margin-top: -450px;
+    display: flex;
+
+}
+
+#full-body {
+
+    display: flex;
+    margin-top: -539px;
+    margin-left: 559px;
+    height: 2017px;
+
+}
+#back-body
+{
+    height: 540px;
+    margin-left: 617px;
+    margin-top: -2020px;
+    display: flex;
+}
+.body-action-icon-turn-body{
+    margin-left: -342px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid gray;
+    height: 40px;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.body-part-head {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 850px;
+}
+
+.body-part-neck {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 10px;
+    margin-left: 560px;
+
+}
+
+.body-part-chest {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 480px;
+
+}
+
+.body-part-arms {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: -15px;
+    margin-left: 880px;
+
+}
+
+.body-part-abdomen {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 80px;
+    margin-left: 480px;
+
+}
+
+.body-part-pelvis {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 60px;
+    margin-left: 860px;
+
+}
+
+.body-part-legs {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 480px;
+
+}
+
+input #input-symptom {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+input {
+    justify-content: center;
+    text-align: center;
+}
+
+#input-age {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 40px;
+    width: 60px;
+}
+
+#text-age {
+    font-family: poppins;
+    margin-top: -500px;
+    margin-left: 150px;
+    display: flex;
+}
+
+option {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text-gender {
+    font-family: poppins;
+    margin-top: -90px;
+    margin-left: 350px;
+    display: flex;
+}
+
+#input-gender {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    height: 45px;
+    width: 150px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+
+#text-symptoms {
+    font-family: poppins;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+
+#input-symptom {
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 40px;
+    width: 350px;
+}
+
+::placeholder {
+    justify-content: left;
+    text-align: left;
+    font-family: poppins;
+    padding-left: 10px;
+}
+
+.report {
+    background-color: aqua;
+    height: 580px;
+    width: 300px;
+    margin-left: 1130px;
+    margin-top: -310px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #88888888;
+    display: flex;
+}
+
+#report-text {
+    font-family: poppins;
+    margin-top: 20px;
+    margin-left: 25px;
+}
