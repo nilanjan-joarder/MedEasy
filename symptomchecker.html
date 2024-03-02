@@ -11,22 +11,28 @@
 
 </html>
 <div class="symptoms-check">
-    <div class="body-part-head">HEAD</div>
-    <div class="body-part-neck">NECK</div>
-    <div class="body-part-chest">CHEST</div>
-    <div class="body-part-arms">ARMS</div>
-    <div class="body-part-abdomen">ABDOMEN</div>
-    <div class="body-part-pelvis">PELVIS</div>
-    <div class="body-part-legs">LEGS</div>
-<img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/front-m.png"
-    class="body-bg-img">
-</image>
-<svg id="full-body" x="0px" y="0px" viewBox="0 0 310 385" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+    <div class="body-part-head" id="head">HEAD</div>
+    <div class="body-part-neck" id="neck">NECK</div>
+    <div class="body-part-chest" id="chest">CHEST</div>
+    <div class="body-part-arms" id="arms">ARMS</div>
+    <div class="body-part-abdomen" id="abdomen">ABDOMEN</div>
+    <div class="body-part-pelvis" id="pelvis">PELVIS</div>
+    <div class="body-part-legs" id="legs">LEGS</div>
+    <div class="container">
+        <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/front-m.png"
+    class="body-image" id="frontImage">
+</img>
+<img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/back-m.png" alt="bodyback" srcset="" id="backImage" class="body-image"> 
+</div>
+    
+
+<div class="svg-container">
+    <svg id="full-body" x="0px" y="0px" viewBox="0 0 310 385" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <path fill="#83B7D6" fill-rule="nonzero"
         d="M6.348 119.904c1.318 1.764 2.473 3.19 4.743 2.909 2.521-.313 2.98 1.095 3.44 3.151 1.164 5.183 2.56 10.317 3.974 15.44.057.206.124.412.198.615 11.872 8.438 24.13 19.488 39.493 18.548 8.276-.506 16.606-5.58 23.459-9.926 4.104-2.603 8.053-5.448 11.86-8.474 2.506-5.414 3.573-11.098 4.277-16.905.294-2.426 1.199-2.92 3.46-3.002 1.441-.052 3.303-.966 4.152-2.106 1.518-2.04 2.905-4.43 3.465-6.875 1.11-4.836 1.836-9.79 2.307-14.735.385-4.034.352-8.137.106-12.185-.077-1.249-1.203-2.88-2.317-3.514-1.695-.963-2.035-2.074-1.992-3.817.363-14.543.086-29.01-4.415-43.078-2.962-9.257-7.513-17.672-14.945-23.838C76.343 2.759 63.117-1.15 48.45 1.136c-9.297 1.448-17.978 4.75-24.99 11.173-8.07 7.393-13.073 16.756-15.686 27.364-3.262 13.243-3.715 26.712-2.995 40.253.084 1.587-.143 2.633-1.736 3.413-.835.408-1.762 1.593-1.81 2.473-.238 4.279-.532 8.603-.17 12.857.62 7.317.515 14.846 5.286 21.235"
-        opacity="1" transform="scale(0.085,0.085), translate(425,2)" class="layers"></path>
+        opacity="0" transform="scale(0.085,0.085), translate(425,2)" class="layers"></path>
 
     <path fill="#83B7D6" fill-rule="nonzero"
         d="M30.842 73.707c11.626 2.265 23.388 4.11 35.238 4.592 11.635.472 22.686-1.188 34.072-3.407 17.698-3.45 35.35-7.32 53.173-10.039-3.728-1.712-7.198-4.047-10.755-6.145-9.286-5.475-17.905-11.873-25.991-18.992-2.157-1.898-3.418-4.182-3.458-7.186-.1-7.58-.48-15.16-.479-22.739.001-2.867-.093-6.078.927-8.621a142.538 142.538 0 0 1-7.592 5.488c-5.752 3.87-11.838 7.36-18.33 9.836-5.962 2.274-11.903 2.688-18.122 1.116C58.501 14.823 49.573 7.35 40.465.78c.377.814.741 1.627.911 2.483 2.017 10.152 1.757 20.418.785 30.627-.216 2.27-1.956 4.945-3.804 6.416-8.984 7.151-18.17 14.056-27.445 20.832C7.726 63.465 4.26 65.503.69 67.198c10.043 2.206 20.058 4.543 30.152 6.51"
@@ -63,8 +69,11 @@
 
     <path fill="#83B7D6" fill-rule="nonzero" opacity="1" class="layers"></path> -->
 </svg>
+
+</div>
+
     
-<img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/back-m.png" alt="bodyback" srcset="" id="back-body">
+
 </div>
 <label id="text-age">Age</label>
 <input type="number" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="input-age" required> 
