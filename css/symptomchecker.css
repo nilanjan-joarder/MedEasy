@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  /* overflow: hidden; */
-  background-color: #ffffff59;
+    /* overflow: hidden; */
+    background-color: #ffffff59;
 }
 
 .symptoms-check {
@@ -17,6 +17,14 @@ body {
   /* display: flex; */
 }
 
+.body-bg-img {
+    height: 540px;
+    margin-left: 625px;
+    margin-top: -450px;
+    display: flex;
+
+}
+
 #full-body {
   display: flex;
   margin-top: -427px;
@@ -29,20 +37,16 @@ body {
   margin-top: -2020px;
   display: flex;
 }
-
-.svg {
-  opacity: 0;
-}
-.body-action-icon-turn-body {
-  margin-left: -342px;
-  margin-top: 100px;
-  display: flex;
-  border: 1px solid gray;
-  height: 40px;
-  width: 46px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
+.body-action-icon-turn-body{
+    margin-left: -342px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid gray;
+    height: 40px;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .body-part-head {
@@ -91,18 +95,19 @@ body {
 }
 
 .body-part-arms {
-  font-family: poppins;
-  justify-content: center;
-  align-items: center;
-  color: rgb(137, 137, 137);
-  height: 30px;
-  width: 100px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  display: flex;
-  box-shadow: 2px 2px 2px 2px #bdbdbd82;
-  margin-top: -15px;
-  margin-left: 880px;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: -15px;
+    margin-left: 880px;
+
 }
 
 .body-part-abdomen {
@@ -149,11 +154,43 @@ body {
   margin-top: 40px;
   margin-left: 480px;
 }
+.body-part-back {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top:-236px;
+    margin-left: 490px;
+
+}
+
+.body-part-butcock {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 854px;
+
+}
+
 
 input #input-symptom {
-  display: flex;
-  justify-content: left;
-  text-align: left;
+    display: flex;
+    justify-content: left;
+    text-align: left;
 }
 
 input {
@@ -202,17 +239,17 @@ option {
 }
 
 #text-symptoms {
-  font-family: poppins;
-  margin-top: 50px;
-  margin-left: 150px;
-  display: flex;
+    font-family: poppins;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
 }
 
 #input-symptom {
-  margin-top: 20px;
-  margin-left: 150px;
-  height: 40px;
-  width: 350px;
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 40px;
+    width: 350px;
 }
 
 ::placeholder {
