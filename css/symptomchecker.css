@@ -22,7 +22,7 @@ body {
     margin-left: 625px;
     margin-top: -450px;
     display: flex;
-
+    
 }
 
 #full-body {
@@ -39,6 +39,12 @@ body {
     margin-left: 617px;
     margin-top: -2020px;
     display: flex;
+}
+#full-body-back{
+    display: flex;
+    margin-top: -540px;
+    margin-left: 556px;
+    height: 540px;
 }
 .body-action-icon-turn-body{
     margin-left: -342px;
