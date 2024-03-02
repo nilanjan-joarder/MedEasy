@@ -20,7 +20,7 @@ body {
 .body-bg-img {
     height: 540px;
     margin-left: 625px;
-    margin-top: -450px;
+    margin-top: -310px;
     display: flex;
     
 }
@@ -117,7 +117,7 @@ body {
     display: flex;
     box-shadow: 2px 2px 2px 2px #bdbdbd82;
     margin-top: -15px;
-    margin-left: 880px;
+    margin-left: 890px;
 
 }
 
@@ -168,11 +168,43 @@ body {
     margin-left: 480px;
 
 }
+.body-part-back {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top:-236px;
+    margin-left: 490px;
+
+}
+
+.body-part-butcock {
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 40px;
+    margin-left: 854px;
+
+}
+
 
 input #input-symptom {
     display: flex;
-    justify-content: left;
-    text-align: left;
+    
+
 }
 
 input {
@@ -225,6 +257,7 @@ option {
     margin-top: 50px;
     margin-left: 150px;
     display: flex;
+    
 }
 
 #input-symptom {
@@ -232,6 +265,9 @@ option {
     margin-left: 150px;
     height: 40px;
     width: 350px;
+    text-align: start;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 ::placeholder {
